@@ -17,14 +17,12 @@ The contents of this page are in the Public Domain
 
 - Ensure that Jekyll is installed on your computer. (And read up on the directory structure on their site and below). 
 
-- In your local git projects directory clone the app_frame repo:
+- In your local git projects directory do the following:
 
-`git clone https://github.com/energyapps/app_frame.git`
-
-- Rename the folder to your project name
-
-`mv app_frame/ new_directory_name/`
-
+```
+git clone https://github.com/energyapps/app_frame.git #clone the app frame repo
+mv app_frame/ new_directory_name/ #Rename the folder to your project name
+```
 - cd into that folder in terminal and change remote URL to new repo:
 
 `git remote set-url origin https://github.com/energyapps/NEW-REPO-NAME.git` -changes the remote url to your new URL
