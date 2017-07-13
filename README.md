@@ -19,7 +19,7 @@ The contents of this page are in the Public Domain
 
 - In your local git projects directory do the following:
 
-```
+```shell
 git clone https://github.com/energyapps/app_frame.git #clone the app frame repo
 mv app_frame/ new_directory_name/ #Rename the folder to your project name
 ```
