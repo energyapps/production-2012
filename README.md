@@ -20,23 +20,14 @@ The contents of this page are in the Public Domain
 - In your local git projects directory do the following:
 
 ```shell
-git clone https://github.com/energyapps/app_frame.git #clone the app frame repo
-mv app_frame/ new_directory_name/ #Rename the folder to your project name
-```
-- cd into that folder in terminal and change remote URL to new repo:
-
-`git remote set-url origin https://github.com/energyapps/NEW-REPO-NAME.git` -changes the remote url to your new URL
-
-- Push to this new repo
-
-`git push -u origin master`
-
-- Branch out the gh-pages branch
-
-```
-git branch gh-pages
-git checkout gh-pages
-git push origin gh-pages
+$ git clone https://github.com/energyapps/app_frame.git #clone the app frame repo
+$ mv app_frame/ new_directory_name/ #Rename the folder to your project name
+$ cd new_directory_name/
+$ git remote set-url origin https://github.com/energyapps/NEW-REPO-NAME.git #changes the remote url to your new URL
+$ git push -u origin master #Push to this new repo
+$ git branch gh-pages #Branch out the gh-pages branch
+$ git checkout gh-pages
+$ git push origin gh-pages #Push updates to gh-pages
 ```
 
 - At this point you may want to go into your repo on github and change the "default branch" to gh-pages in the settings. The gh-pages repo is like the "production server". Whatever is in this repo is what is served over `https://energyapps.github.io/NEW-REPO-NAME`.
