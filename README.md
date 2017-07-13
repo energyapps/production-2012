@@ -13,7 +13,7 @@ The contents of this page are in the Public Domain
 
 ## Setup
 
-- Before Getting started, create a new repo in the [EnergyApps Github group](https://github.com/energyapps) or elsewhere.
+- Before Getting started, create a new repo in the [EnergyApps Github group](https://github.com/energyapps) named whatever you want.
 
 - Ensure that Jekyll is installed on your computer. (And read up on the directory structure on their site and below). 
 
@@ -21,7 +21,7 @@ The contents of this page are in the Public Domain
 
 ```shell
 $ git clone https://github.com/energyapps/app_frame.git #clone the app frame repo
-$ mv app_frame/ new_directory_name/ #Rename the folder to your project name
+$ mv app_frame/ new_directory_name/ #Rename the app frame folder to your new project name
 $ cd new_directory_name/
 $ git remote set-url origin https://github.com/energyapps/NEW-REPO-NAME.git #changes the remote url to your new URL
 $ git push -u origin master #Push to this new repo
