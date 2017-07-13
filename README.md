@@ -35,9 +35,11 @@ The contents of this page are in the Public Domain
 
 - Branch out the gh-pages branch
 
-`git branch gh-pages`
-`git checkout gh-pages`
-`git push origin gh-pages`
+```
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+```
 
 - At this point you may want to go into your repo on github and change the "default branch" to gh-pages in the settings. The gh-pages repo is like the "production server". Whatever is in this repo is what is served over `https://energyapps.github.io/NEW-REPO-NAME`.
 
