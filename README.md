@@ -47,7 +47,7 @@ git push origin gh-pages
 
 - Build the Jekyll `_site/` folder by running `jekyll build` in your directory. I recommend running `jekyll build --watch`, which automatically rebuilds your `_site` folder whenever you change something in the repository. More on this [on jekyll's website](https://jekyllrb.com/docs/usage/).
 - Run the jekyll server by running `jekyll serve`. You can now see your page at http://localhost:4000/
-- Begin work in the `index.html` file, `style.css` file, and `script.js` file. Edit libraries in `_layout/default.html`.
+- Begin work in the `index.html` file, `style.css` file, and `script.js` file. Add/remove javascript libraries and referenced css files in `_layout/default.html`.
 - Push changes to github, see website running remotely at `https://energyapps.github.io/NEW-REPO-NAME/`. The site is now deployed on energyapps.github.io
 - Recommended: Update README.md to reflect your current project.
 
@@ -84,7 +84,7 @@ To get an in-depth look at the directory structure of a general [jekyll site go 
 	* The _layouts/ folder is the Jekyll folder that contains layouts for any type of page within a jekyll site. 
 	* default.html
 		- This is a very rough cannibalization of the DOM elements in energy.gov/maps element. NOTE, this has not yet been updated from the previous energy.gov design.
-		- All CSS and JS should be linked here. Any library you want to link should be added or removed from here. Mapbox is the default.
+		- All CSS and JS should be linked here. **Any library you want to link should be added or removed from here. Mapbox is the default.**
 		- Pym is linked here by default.
 		- Jekyll merges in the markup from the index.html file here. 
 3.	_site/
